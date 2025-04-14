@@ -11,13 +11,13 @@ body {
 
 .container {
   text-align: center;
-  max-width: 440px;
+  max-width: 440px; /* Sedikit lebih lebar */
   padding: 20px;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 6px auto; /* Logo di tengah */
+  margin: 0 auto 6px auto;
   width: 100px;
   border-radius: 50%;
 }
@@ -51,10 +51,15 @@ h1 {
 .links a {
   display: block;
   background: #f3f3f3;
-  padding: 16px 24px;
+  padding: 16px 24px;   /* Tambah tinggi dan lebar tombol */
   margin: 12px auto;
-  width: 90%; /
-  ...
+  width: 90%;           /* Kolom agak panjang */
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
 }
 
 .links a:hover {
