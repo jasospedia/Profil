@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -31,23 +32,8 @@ h1 {
 }
 
 .ig-verified {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #3897f0; /* biru IG */
-  position: relative;
-}
-
-.ig-verified::before {
-  content: "✓";
-  color: white;
-  font-size: 13px;
-  font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-left: 6px;
+  vertical-align: middle;
 }
 
 .social-icons {
